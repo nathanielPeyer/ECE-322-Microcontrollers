@@ -17,7 +17,9 @@
 ;*************************************************************************************************;
 
 ; Includes
-.include "tn13a.inc"
+.include "tn13adef.inc"
+
+; Source code body.
 
 .org 0x0000
   rjmp RESET
